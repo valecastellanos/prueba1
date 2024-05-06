@@ -1,0 +1,58 @@
+.slidecontainer {
+    width: 10%; /* Width of the outside container */
+  }
+  
+  /* The slider itself */
+  .slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 150px; /* Full-width */
+    height: 10px; /* Specified height */
+    background: black; /* Grey background */
+    outline: none; /* Remove outline */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+  }
+  
+
+  /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 10px; /* Set a specific slider handle width */
+    height: 10px; /* Slider handle height */
+    background: white; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+
+  .slidecontainer {
+    width: 10%; /* Width of the outside container */
+  }
+  .button {
+    background-color: black; /* Green */
+    border: none;
+    color: red;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: red; 
+    color: white; 
+    border: 2px solid white;
+  }
+  
+  .button1:hover {
+    background-color: white;
+    color: red;
+  }
+  
+  
+
+  
